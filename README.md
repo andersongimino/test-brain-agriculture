@@ -42,6 +42,10 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
+## Swagger
+
+`http://localhost:300/api`
+
 ## Run tests
 
 ```bash
