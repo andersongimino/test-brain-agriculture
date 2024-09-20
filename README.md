@@ -26,7 +26,6 @@ $ cp .env.example .env
 
 ## Project setup
 
-```bash
 $ pnpm install
 ```
 
