@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:12-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: test-brain
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'postgres:/data/postgres'
+volumes:
+  postgres:
