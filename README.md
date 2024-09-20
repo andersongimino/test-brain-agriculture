@@ -1,25 +1,25 @@
 # TEST BRAIN AGRICULTURE - ANDERSON GIMINO
 
-## Pré-requisitos
+## Prerequisites
 
-Para rodar a aplicação localmente, é necessário ter as seguintes ferramentas instaladas:
+To run the application locally, you must have the following tools installed:
 
 - [Docker](https://docs.docker.com/get-docker/) e [Docker Compose](https://docs.docker.com/compose/install/)
-- [Node.js](https://nodejs.org/en/) (versão recomendada: 16 ou superior)
-- [npm](https://www.npmjs.com/) (gerenciador de pacotes do Node.js)
+- [Node.js](https://nodejs.org/en/) (Recommended version: 16 or higher)
+- [npm](https://www.npmjs.com/) (Node.js package manager)
 
-## Passos para rodar o projeto
+## Steps to run the project
 
-### 1. Inicializar o Banco de Dados
+### 1. Initialize the Database
 
-Na raiz do projeto, rode o comando abaixo para inicializar o banco de dados via Docker:
+At the root of the project, run the command below to initialize the database via Docker:
 
 ```bash
 docker compose up -d
 
-## Configurar Variáveis de Ambiente
+## Configure Environment Variables
 
-Copie o arquivo .env.example para criar o arquivo .env:
+Copy the .env.example file to create the .env file:
 
 $ cp .env.example .env
 
