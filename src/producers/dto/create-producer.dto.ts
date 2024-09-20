@@ -5,7 +5,6 @@ import { ApiProperty } from '@nestjs/swagger';
 export class CreateProducerDto {
   @IsNotEmpty()
   @IsNumberString()
-  @Max(14)
   @Validate(IsCpfOrCnpj)
   @ApiProperty({ example: '28069164026', description: 'Cpf ou Cnpj do produtor' })
   cpfCnpj: string;
